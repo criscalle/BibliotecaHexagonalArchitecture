@@ -28,8 +28,6 @@ public static class ApplicationServiceRegistration
         services.AddTransient<IMaterialAcademicoDomainService, MaterialAcademicoDomainService>();
 
         services.AddMediatR(c => c.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
-        /*services.AddTransient(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehaviour<,>));
-        services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));*/
 
         return services;
     }
