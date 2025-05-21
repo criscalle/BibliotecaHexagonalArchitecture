@@ -1,0 +1,6 @@
+@BibliotecaHexagonalArchitecture.API_HostAddress = http://localhost:5258
+
+GET {{BibliotecaHexagonalArchitecture.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

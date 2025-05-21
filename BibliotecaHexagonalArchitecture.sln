@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C69A5AAF-F70E-478C-9D8A-188476E3FC44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1402597D-F18E-4402-93D2-D6C9755FA2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaHexagonalArchitecture.Domain", "BibliotecaHexagonalArchitecture.Domain\BibliotecaHexagonalArchitecture.Domain.csproj", "{8815D6F9-CB5E-4801-BA17-7BC7ABD77A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaHexagonalArchitecture.Application", "BibliotecaHexagonalArchitecture.Application\BibliotecaHexagonalArchitecture.Application.csproj", "{4ED8AD24-EC4D-4CA0-8266-0D4E40BE20EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaHexagonalArchitecture.API", "BibliotecaHexagonalArchitecture.API\BibliotecaHexagonalArchitecture.API.csproj", "{59FEEEF9-F873-41F8-B45D-ECC397628C1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaHexagonalArchitecture.Infrastructure", "BibliotecaHexagonalArchitecture.Infrastructure\BibliotecaHexagonalArchitecture.Infrastructure.csproj", "{BF9FE18F-39E9-4B67-BF64-AEC86D75720A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8815D6F9-CB5E-4801-BA17-7BC7ABD77A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8815D6F9-CB5E-4801-BA17-7BC7ABD77A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8815D6F9-CB5E-4801-BA17-7BC7ABD77A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8815D6F9-CB5E-4801-BA17-7BC7ABD77A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED8AD24-EC4D-4CA0-8266-0D4E40BE20EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED8AD24-EC4D-4CA0-8266-0D4E40BE20EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED8AD24-EC4D-4CA0-8266-0D4E40BE20EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED8AD24-EC4D-4CA0-8266-0D4E40BE20EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FEEEF9-F873-41F8-B45D-ECC397628C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FEEEF9-F873-41F8-B45D-ECC397628C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FEEEF9-F873-41F8-B45D-ECC397628C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FEEEF9-F873-41F8-B45D-ECC397628C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9FE18F-39E9-4B67-BF64-AEC86D75720A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9FE18F-39E9-4B67-BF64-AEC86D75720A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9FE18F-39E9-4B67-BF64-AEC86D75720A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9FE18F-39E9-4B67-BF64-AEC86D75720A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8815D6F9-CB5E-4801-BA17-7BC7ABD77A6B} = {C69A5AAF-F70E-478C-9D8A-188476E3FC44}
+		{4ED8AD24-EC4D-4CA0-8266-0D4E40BE20EA} = {C69A5AAF-F70E-478C-9D8A-188476E3FC44}
+		{59FEEEF9-F873-41F8-B45D-ECC397628C1D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BF9FE18F-39E9-4B67-BF64-AEC86D75720A} = {1402597D-F18E-4402-93D2-D6C9755FA2B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2867C47E-4262-4FD2-9888-A8D89D485BB2}
+	EndGlobalSection
+EndGlobal
